@@ -2,7 +2,7 @@
  * @Author: Boris.Peng
  * @Date: 2020-06-18 14:58:26
  * @LastEditors: Boris.Peng
- * @LastEditTime: 2020-06-19 17:48:46
+ * @LastEditTime: 2020-06-19 17:57:44
  */ 
 #include "dmp/dmp.h"
 using namespace dmp;
@@ -21,7 +21,7 @@ int main(int argc, char **argv){
 	// dmpc.chooseData(0, vg, vg);
 
 	std::cout<<plan.size()<<std::endl;
-	std::ofstream of("/home/myDMP/draw_dmp/res.txt");
+	std::ofstream of("../draw_dmp/res.txt");
 	for(const auto &vec: plan){
 		for(const auto &item:vec){
 			// std::cout<<item<<"\t";
