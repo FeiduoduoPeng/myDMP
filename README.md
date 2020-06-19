@@ -7,8 +7,10 @@
 # myDMP
 remove the ROS dependency of https://github.com/sniekum/dmp
 # Use
-```cd build```
-```cmake ..```
-```make```
-```./dmp_server```
-```cd ../draw_dmp && python3 draw.py```
+```
+cd build
+cmake ..
+make
+dmp_server
+cd ../draw_dmp && python3 draw.py
+```
